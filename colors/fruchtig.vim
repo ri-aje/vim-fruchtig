@@ -7,6 +7,11 @@ set background=light
 hi clear | syntax reset
 let g:colors_name="fruchtig"
 
+if exists('g:fruchtig_loaded')
+ finish
+endif
+let g:fruchtig_loaded=1
+
 hi Cursor       guifg=#FFFFFF guibg=#001217 gui=NONE    " ----------------
 hi MatchParen   guifg=#001217 guibg=#B1FF00 gui=NONE    "
 hi NonText      guifg=#438EC3 guibg=NONE    gui=NONE    "  Default
