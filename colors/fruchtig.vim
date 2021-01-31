@@ -3,14 +3,14 @@
 "  / _// __/ // / __/ _ \/ __/ / _ `/  /  Based on "summerfruit[256]" by Armin Ronacher [Martin Bäuml]
 " /_/ /_/  \_,_/\__/_//_/\__/_/\_, /  /  <schickele|you~know~what|web.de>
 "                             /___/  /  2016--2018
-set background=light
-hi clear | syntax reset
-let g:colors_name="fruchtig"
-
 if exists('g:fruchtig_loaded')
  finish
 endif
 let g:fruchtig_loaded=1
+
+set background=light
+hi clear | syntax reset
+let g:colors_name="fruchtig"
 
 hi Cursor       guifg=#FFFFFF guibg=#001217 gui=NONE    " ----------------
 hi MatchParen   guifg=#001217 guibg=#B1FF00 gui=NONE    "
